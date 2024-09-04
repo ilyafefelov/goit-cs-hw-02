@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #7530ff, #fdff01);
+    font-family: Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-text {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.check-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #eb2de8;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #c41fbb;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.check-button:hover {
+    background-color: #983e96;
+    border-bottom: 1px solid #432f42;
+    transform: translateY(2px);
+    traansition: 0.3s ease-in-out;
+    margin-bottom: 3px;
+}
+
+.response {
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    color: darkslategray;
+    font-size: 16px;
+    font-weight: bolder;
+    width: 40%; /* Адаптивна ширина */
+    height: 3rem;
+    max-width: 600px; /* Максимальна ширина */
+    display: flex; /* Використовує flexbox для центрування */
+    justify-content: center; /* Центрує вміст по горизонталі */
+    align-items: center; /* Центрує вміст по вертикалі */
+}
+
+.success {
+    background-color: #90ee90; /* light green */
+    transition: .6s ease-in-out;
+}
+
+.error {
+    background-color: #ffcccb; /* light red */
+}
